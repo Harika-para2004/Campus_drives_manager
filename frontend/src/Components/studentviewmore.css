@@ -1,0 +1,128 @@
+/* .std-vm-page{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.std-vm-page .left{
+    background-color: #003399;
+    width: 400px;
+}
+.std-vm-page .right{
+    background-color: aliceblue;
+    width: calc(100% - 400px);
+}
+ */
+
+ .std-vm-page {
+    display: flex;
+    height: 100vh;
+    width: 1300px;
+  }
+  
+  .std-vm-page .left {
+    background-color: #003399;
+    width: 400px;
+    padding: 20px; 
+    box-sizing: border-box;
+    background-attachment: fixed; 
+  }
+  
+  .std-vm-page .right {
+    background-color: aliceblue;
+    flex-grow: 1; 
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow-y: auto;
+  }
+  .std-vm-prof1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .std-vm-prof1 img{
+    border-radius: 50%;
+    width: 220px;
+    height:220px;
+    padding:-10px;
+    margin-bottom: 50px;
+  }
+  .prof-det{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    
+  }
+  .prof-all-det{
+    margin: 30px;
+    border: 2px solid #003399;
+    /* height: 530px; */
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  .right h2,h4{
+    color:#cf1d76;
+  }
+  .right h2,h4{
+    text-align: center;
+  }
+  .left h2{
+    color:rgb(100, 232, 241);
+  }
+  .right .sub-det{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    .std-vm-page {
+      flex-direction: column; 
+      width: 680px;
+    }
+  
+    .std-vm-page .left,
+    .std-vm-page .right {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .std-vm-page .left{
+        height: 240px;
+    }
+    .std-vm-prof1{
+      flex-direction: row;
+      margin-top: -10px;
+      align-items: flex-start;
+    }
+    /* .std-vm-prof1 img{
+      margin-right: 100px;
+      margin-top:10%;
+      width: 140px;
+      height:140px;
+    } */
+    .std-vm-prof1 img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+    }
+    .prof-all-det{
+    margin: 10px;
+    height: 90%;
+    border:none;
+    }
+  }
+  
+  .red{
+    color:rgb(48, 255, 227);
+    border:1px solid rgb(61, 224, 224);
+    border-radius:8px;
+    padding:5px;
+    margin-right:10px;
+  }
+

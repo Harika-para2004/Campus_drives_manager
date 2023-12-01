@@ -1,0 +1,135 @@
+.s-promain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 30px;
+}
+.prof-mainCont{
+    width:100%;
+    z-index: -10;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./images/stdprof.jpg') ;   
+}
+.s-promain .form-head{
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    /* border-radius: 20px; */
+}
+/* .prof-mainCont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+} */
+/* .prof-mainCont .prof-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 500px;
+    margin-bottom: 50px;
+} */
+.s-promain .form-cont{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+    z-index: 5;
+    border: 2px solid #003399;
+    border-radius: 50px;
+    width:70%;
+    margin-bottom: 50px;
+  }
+  .s-promain .form-cont label{
+    color:white;
+  }
+.prof-mainCont .form-label{
+    margin-right: 30px;
+    margin-top: -10px;
+    width: 100%;
+}
+@media (max-width: 750px){
+    .s-promain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-cont{
+        width: 70%;
+    }
+}
+
+/* 
+.prof-mainCont nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white !important;
+    background-color: #003399;
+    z-index: 100;
+}
+.prof-mainCont .nav-item:hover{
+    cursor: pointer;
+}
+.mainCont .user-icon{
+   color: white; 
+}
+@media (min-width: 992px) {
+    .prof-mainCont .nav-ul{
+        margin-left: 850px;
+        letter-spacing: .7px;
+    }
+    .prof-mainCont .user-icon{
+        margin-right: 10px;
+        margin-left: 40px;
+        color: #003399;
+        background-color: white;
+        border-radius: 50%;
+        padding: 3px;
+    }
+    .prof-mainCont .user-icon:hover{
+        cursor: pointer;
+    }
+    .prof-mainCont .nav-item {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: bold;
+    }
+    .prof-mainCont .nav-item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px; 
+    background: linear-gradient(90deg, #ff6b6b, #ffa7c4); 
+    transform: scaleX(0);
+    transform-origin: 0 100%;
+    transition: transform 0.3s ease; 
+  }
+  .prof-mainCont .nav-item:hover::after {
+    transform: scaleX(1); 
+  }
+} */

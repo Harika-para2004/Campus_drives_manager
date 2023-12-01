@@ -1,0 +1,143 @@
+  /* .get-std-body{
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 600px;
+    width:100%;
+  } */
+
+  /* .get-std-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    background-color: #003399;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    min-width: 1300px;
+  } */
+  .get-std-body{
+    padding-top:150px;
+    padding-bottom:50px;
+    width:100%;
+    z-index: -5;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./images/job-search-bg.png') ;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  .get-std-body::before {
+    content: '';
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:100%;
+    z-index: -5;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+  }
+  .get-std-body .reviews{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index:5;
+    height: 100vh;
+  }
+  .get-std-body .rev-section{
+    padding: 0 1rem;
+    width: 100%;
+    text-align: center;
+    /* background-color: #003399; */
+  }  
+  .get-std-body .title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: .5rem;
+  }
+  .get-std-body .note{
+    font-size: 1.1rem;
+    color: rgb(150, 150, 150);
+    font-style: italic;
+    color: aliceblue;
+  }
+  .get-std-body .review{
+    margin: 0 1rem;
+    min-width: 300px;
+    flex: 1;
+  }
+  .get-std-body .head-review{
+    margin: 1.75rem auto;
+    width: 150px;
+    height: 150px;
+  }
+  .get-std-body img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+  }
+  .get-std-body .body-review{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 2.5rem;
+    border-radius:10px;
+    /* box-shadow: 0px 0px 10px 3px rgb(225, 225, 225); */
+    box-shadow: 0 2px 4px rgba(206, 194, 194, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .get-std-body .name-review{
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .25rem;
+  }
+  .get-std-body .place-review{
+    color: red;
+    font-style: italic;
+    font-size: 130%;
+  }
+  .get-std-body h5{
+      font-size: 18px;
+  }
+  .get-std-body h3{
+    color:blue;
+  }
+  .rating{
+    color: rgb(253, 180, 42);
+    margin: 1rem 0;
+  }
+  .desc-review{
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+  }
+  .get-std-body .btn{
+    color: white;
+    background-color:#003399;
+    border-radius: 10%;
+    font-size: 20px;
+  }
+  @media (max-width: 678px){
+    .review{
+      margin-top: 1.5rem;
+    }
+    .reviews{
+      height: 100vh;
+      width: 100%;
+    }
+  }
+
+  

@@ -1,0 +1,48 @@
+.landing-main-cont{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/bg3.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    
+}
+
+.landing-main-cont .main-head {
+    margin: 150px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-main-cont .head {
+    color: #003399;
+    font-size: 55px;
+}
+
+.landing-main-cont .login, .register {
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.landing-main-cont .login {
+    background-color: #003399;
+    border: none;
+    color: white;
+}
+
+.landing-main-cont .register {
+    border: 1px solid #003399;
+    margin-left: 20px;
+    color: #003399;
+}
+
+.landing-main-cont .landing-img{
+    width:800px;
+    height: 500px;
+    margin-top:40px;
+}
