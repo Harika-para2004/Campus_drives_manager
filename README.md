@@ -7,7 +7,6 @@ Welcome to the MERN Campus Drives Management Application! This application is de
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contact Information](#contact-information)
 
 ## Introduction
